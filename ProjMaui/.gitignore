@@ -1,0 +1,41 @@
+## Ignore MAUI/Android/iOS specific files
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.userprefs
+*.suo
+*.user
+*.cache
+*.autosave
+
+# Build results
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet
+**/packages/*
+!**/packages/build/
+.nuget/
+*.nupkg
+
+# Android
+*.apk
+*.aab
+*.keystore
+
+# iOS
+*.ipa
+*.dsym
+*.pch
+*.mdb
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Rider
+.idea/
+*.sln.iml
